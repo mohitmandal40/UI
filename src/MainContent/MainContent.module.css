@@ -1,0 +1,91 @@
+.List {
+  margin-top: 1rem;
+}
+
+.Lists {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.List:first-of-type {
+  background: #af81da6b;
+  border-radius: 10px;
+  padding: 0.5rem 1rem 0.5rem 0.1rem;
+}
+
+.List:first-of-type a {
+  color: #8a2be2;
+}
+
+.Lists li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Recursive";
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+label {
+  color: rgb(143, 143, 143);
+  font-size: 0.9rem;
+  font-family: "Recursive";
+  font-weight: normal;
+}
+
+.input {
+  width: 45%;
+}
+
+input[type] {
+  padding: 0.9rem 1rem;
+  margin: 0 0.2rem;
+}
+
+input {
+  font-family: "Recursive";
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  margin: 0 0.3rem;
+}
+
+button.save {
+  background: #8a2be2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.profileBtn {
+  border: 1px solid #8a2be2;
+  background: transparent;
+  margin: 0 1rem;
+  color: #8a2be2;
+  border-radius: 30px;
+}
+
+.removeBtn {
+  background: transparent;
+  color: #8a2be2;
+  border: none;
+}
